@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Lesson7 {
 
 	public static void main(String[] args) {
+		int x=10;
 		
+		main1();
 
-	}
+	}//end main method
 	/**
 	 * Question 1: 
 	 * for(int i=0; i<=100;i++) {
@@ -36,6 +38,33 @@ public class Lesson7 {
 		 }
 	   }
 	 */
+	//public-visible to everyone
+	//private-visible to no one
+	//protected-visible to some , but is protected
+	
+	/**
+	 * Return Type-Data type
+	 * 
+	 * void-im not returning anything: NONE
+	 * int
+	 * boolean
+	 * double
+	 * float
+	 * String
+	 * char
+	 * 
+	 */
+	
+	
+	public static int main2(int x,String name, double y) {
+		x = x* x;
+		return x;
+	}//end main2
+
+	
+	public static void main1() {
+		System.out.println("Hey this worked");
+	}//end main1 method
 
 
 }

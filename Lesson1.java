@@ -1,9 +1,23 @@
 package com.sri.javaProject;
 
-public class Lesson2 {
+public class Lesson1 {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world");
+		int x = 10;
+		char c = 'i';
+		double d = 10.5;
+		float f = 10f;
+		boolean value = true;
+		System.out.println(x);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(f);
+		System.out.println(value);
+		
+		System.out.println("This is my class");
+		
+		System.out.println("This is practice");
+	
 		
 		
 	}//end main method
